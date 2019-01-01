@@ -217,14 +217,15 @@ bindsym XF86AudioPrev exec playerctl previous
 
 
 ## Wallpaper
-exec_always feh --bg-scale /home/walopes/Desktop/Background2.jpg  
+#exec_always feh --bg-scale /home/walopes/Desktop/Background2.jpg  
+exec_always feh --bg-scale /home/walopes/Desktop/Night2.jpg  
 
 # Assign a specific workspace to a application
 # First: use $xprop and find the class
 # assign [class="example_class"] $workspace8
 
 # Compton for transparency of the windows
-exec_always compton -o 0.9 -m 0.9 -i 0.75
+exec_always compton -o 0.9 -m 0.9 -i 0.88
 
 ######################################################################
 
